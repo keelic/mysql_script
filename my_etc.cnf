@@ -1,1 +1,4 @@
+[mysqld]
+basedir=/usr/local/mysql
+datadir=/data/mysql/db3306/data
 
