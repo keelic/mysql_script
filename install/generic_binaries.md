@@ -15,7 +15,7 @@ sudo tar -xvf mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz -C /usr/local/opt/
 # 2.创建用户及必要文件夹
 sudo groupadd mysql
 sudo useradd -r -g mysql -s /bin/false mysql
-sudo mkdir -p  /data/mysql/db3306/{data,log,tmp}
+sudo mkdir -p /data/mysql/db3306/{data,log,tmp}
 
 # 3.创建软链接及授权
 # 在/usr/local目录下创建软链接，给使用者提供一个统一的路径
