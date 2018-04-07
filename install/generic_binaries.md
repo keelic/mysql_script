@@ -3,7 +3,7 @@
 **作者：** keelic  
 **日期：** 2018-04-07    
 
-'''shell
+```shell
 # 安装环境Ubuntu-16.04.1
 
 # 1.下载安装包，解压
@@ -41,4 +41,4 @@ mysql> flush privileges;
 # 配置环境变量（可以修改/etc/profile文件永久生效）
 export PATH="/usr/local/mysql/bin:$PATH"
 
-'''
+```
