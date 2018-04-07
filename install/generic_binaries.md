@@ -34,7 +34,7 @@ sudo /usr/local/mysql/bin/mysqld_safe --defaults-file=/data/mysql/db3306/db3306.
 /usr/local/mysql/bin/mysql -uroot -p
 
 # 6.初次修改登录密码
-mysql> alter  user 'root'@'localhost' identified by '123abc';
+mysql> alter user 'root'@'localhost' identified by '123abc';
 mysql> flush privileges;
 
 
